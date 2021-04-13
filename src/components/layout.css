@@ -579,6 +579,7 @@ html {
   overflow-y: auto;
   margin-left: 340px;
   margin-top: 100px;
+  box-shadow: 1px 1px 5px #888888;
 }
 .vertical-menu p {
   background-color: white;
@@ -594,8 +595,11 @@ html {
   background-color: #34b1ef;
   color: white;
 }
+.sliderMenu {
+  margin-bottom: 400px;
+}
 .colVideo {
-  margin-left: 50px;
+  margin-left: 150px;
   margin-top: 100px;
 }
 .sectorsImageMain {

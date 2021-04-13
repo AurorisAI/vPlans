@@ -227,7 +227,7 @@ function Tabs() {
               className="tabs"
               onClick={() => toggleTab(2)}
             >
-              Economic Leaderss
+              Economic Leaders
               <span
                 className={
                   toggleState === 2

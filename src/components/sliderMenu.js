@@ -7,7 +7,7 @@ import video1 from "../assets/videos/business_consulting.mp4";
 import { ReactVideo } from "reactjs-media";
 
 const SliderMenu = () => (
-    <div className="container-fluid">
+    <div className="container-fluid sliderMenu">
         <div className="row">
             <div className="vertical-menu">
 
@@ -20,7 +20,7 @@ const SliderMenu = () => (
                 <p href="#">Talk to Us</p>
             </div>
 
-            <div className="colVideo" style={{width:"550px",height:"280px"}}>
+            <div className="colVideo" style={{width:"633px",height:"240px"}}>
                 <ReactVideo
                     src={video1}
                     primaryColor="#34b1ef"
@@ -31,7 +31,9 @@ const SliderMenu = () => (
                     Our chief-level business consulting services come in an array of sub<br></br>branches like restructing and investment strategy. We are experts in <br></br>change management, technology and financing. Our customer focused <br></br>
                     analysis has proven to drive revenue growth.
                 </p>
-            </div></div></div>
+            </div>
+            </div>
+            </div>
 
 );
 
